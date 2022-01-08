@@ -60,13 +60,11 @@ class HomePage extends StatelessWidget {
                           'GUESS',
                           style: TextStyle(
                               fontSize: 30.0, color: Colors.pink.shade500),
-                          textAlign: TextAlign.center,
                         ),
                         Text(
                           'THE NUMBER',
                           style: TextStyle(
                               fontSize: 16.0, color: Colors.pink.shade300),
-                          textAlign: TextAlign.center,
                         ),
                       ],
                     ),
