@@ -54,14 +54,18 @@ class HomePage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset('assets/images/guess_logo.png', width: 100.0),
+                    Column(
+                      children: [
+                        Text(
+                          'GUESS',
+                          style: TextStyle(fontSize: 30.0, color: Colors.pink.shade500),textAlign: TextAlign.center,
+                        ),
                     Text(
-                      'GUESS'
-                      style: TextStyle(fontSize: 30.0, color: Colors.deepOrange.shade500),textAlign: TextAlign.center,
+                          'THE NUMBER',
+                      style: TextStyle(fontSize: 16.0, color: Colors.pink.shade300),textAlign: TextAlign.center,
                     ),
-                    Text(
-                          '\nTHE NUMBER',
-                      style: TextStyle(fontSize: 16.0, color: Colors.deepOrange.shade300),textAlign: TextAlign.,
-                    ),
+                  ],
+                ),
                   ],
                 ),
                 SizedBox(height: 100,),
