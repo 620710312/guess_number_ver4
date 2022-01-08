@@ -58,19 +58,27 @@ class HomePage extends StatelessWidget {
                       children: [
                         Text(
                           'GUESS',
-                          style: TextStyle(fontSize: 30.0, color: Colors.pink.shade500),textAlign: TextAlign.center,
+                          style: TextStyle(
+                              fontSize: 30.0, color: Colors.pink.shade500),
+                          textAlign: TextAlign.center,
                         ),
-                    Text(
+                        Text(
                           'THE NUMBER',
-                      style: TextStyle(fontSize: 16.0, color: Colors.pink.shade300),textAlign: TextAlign.center,
+                          style: TextStyle(
+                              fontSize: 16.0, color: Colors.pink.shade300),
+                          textAlign: TextAlign.center,
+                        ),
+                      ],
                     ),
                   ],
                 ),
-                  ],
+                SizedBox(
+                  height: 100,
                 ),
-                SizedBox(height: 100,),
                 TextField(),
-                SizedBox(height: 20,),
+                SizedBox(
+                  height: 20,
+                ),
                 ElevatedButton(
                   child: Text('RANDOM'),
                   onPressed: () {
